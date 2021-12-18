@@ -1,4 +1,4 @@
-FROM node:16.8.0-alpine3.13
+FROM node:16.13.1-alpine3.13
 
 # Labels for GitHub to read the action
 LABEL "com.github.actions.name"="Update Download Stats"
